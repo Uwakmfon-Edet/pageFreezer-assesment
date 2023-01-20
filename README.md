@@ -8,11 +8,12 @@
 
 ### Prerequisite
  * Verify node and npm installation on local computer by running this command on terminal 
-	
+ 	
   ```
 node -v 
 npm -v
 ```
+
 * If command is not found, please proceed to install node before executing next steps. 
 
 ### Setup procedures
@@ -20,7 +21,15 @@ npm -v
 * Launch project on any IDE of choice (preferable VS code)
 * Open terminal (mac) or command line (Windows) on project root directory
 * Run the command to install all node dependencies `npm install`
-* Open the file `PageFreezer_tests/cypress.env.json`  insert a valid Grammarly account email and password.
+* Create a file in the root folder `PageFreezer_tests/cypress.env.json` Paste the code below and update details.
+  ```
+	{
+	"email" : "-- your grammarly email address --",
+	"password" : "-- your grammarly password --"
+	}
+	```
+
+
 * Open terminal in project root folder and run the following command to launch cypress GUI `npx cypress open`
 * Click on e2e to run the automated tests
 
