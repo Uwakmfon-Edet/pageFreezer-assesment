@@ -1,0 +1,17 @@
+{
+  "sample":"href='/signin'",
+  "landing_page_login_button":".headerDesktopRightItemsContainer_InJ6meKi > .headerItemTopLevelLink_CLKm5yp3",
+  "email_field":"#email",
+  "password_field":"#password",
+  "login_button":"[data-qa = 'btnLogin']",
+  "apps_menu":"[href='/apps']",
+  "chrome_ext_section":"[data-name='chromeExt']",
+  "chrome_ext_active":"[data-name='chromeExt'] > [data-name='install-btn'] > span",
+  "my_grammarly_menu":"[data-name='My Grammarly']",
+  "new_doc_button":"[data-name='new-doc-content']",
+  "text_editor":".editor-editorContainer p",
+  "error_text":".alerts-markVisible:first-child",
+  "suggestions_pane":".cards-replacements_labels-itemOriginal",
+  "correction_text":".cards-replacements_labels-itemInsert"
+
+}
